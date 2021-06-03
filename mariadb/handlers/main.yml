@@ -1,0 +1,6 @@
+# (C) Copyright 2021 Hewlett Packard Enterprise Development LP
+---
+# Handler to handle DB tier notifications
+
+- name: restart mariadb
+  service: name=mariadb state=restarted
